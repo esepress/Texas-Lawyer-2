@@ -8,6 +8,7 @@
         <title>Texas Lawers</title>
 
         <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
         <link href="assets/css/owl.carousel.css" rel="stylesheet">
         <link href="assets/css/owl.carousel.theme.min.css" rel="stylesheet">
@@ -41,7 +42,7 @@
                 <div class="collapse navbar-collapse" id="main-navbar">
                   <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#header">Home <span class="sr-only">(current)</span></a></li>
-                    <li><a href="#choose">choose</a></li>
+                    <li><a href="#choose">Why us</a></li>
                     <li><a href="#practice">practice</a></li>
                     <li><a href="#slider-1">Cases</a></li>
                     <li><a href="#team">Our Team</a></li>
@@ -265,6 +266,51 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Consultation -->
+            <section id="consultation" class="consultation">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="title-box">
+                                <p class="section-subtitle">Fill out the form below to recieve a free and confidential intial consultation.</p>
+                                <h2 class="section-title">REQUEST A FREE CONSULTATION</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <form id="consultation-form" class="consultation-form">
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Phone">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <select class="selectpicker" data-live-search="true" data-width="100%">
+                                        <option data-tokens="family">Family Law</option>
+                                        <option data-tokens="business">Business Law</option>
+                                        <option data-tokens="civil litigation">Civil Litigation</option>
+                                        <option data-tokens="other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <textarea class="form-control" rows="8" placeholder="Case Description..." id="case-des" name="case-des"></textarea>
+                                    <!-- <input type="text" class="form-control" id="case-des" placeholder="Case Description..."> -->
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </section>
@@ -608,7 +654,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-sm-6">
-                            <h2>Subscribe to our weekly newspaper</h2>
+                            <h2>Subscribe to our weekly newsletter</h2>
                             <p>*Dont worry, we dont spam</p>
                         </div>
                         <div class="col-sm-6">
@@ -658,6 +704,7 @@
         <!-- Scripts -->
         <script src="assets/js/jquery-1.12.3.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
         <script src="assets/js/owl.carousel.min.js"></script>
         <script src="assets/js/script.js"></script>
     </body>

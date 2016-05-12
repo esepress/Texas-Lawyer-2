@@ -280,6 +280,22 @@ section{
 
 
 /**********************
+		Consultation
+**********************/
+.consultation{
+	background-color: #F2EEED;
+}
+.consultation-form .form-control{
+	margin-bottom: 30px;
+	border-radius: 0;
+}
+.consultation-form  .bootstrap-select .btn, .consultation-form .dropdown-menu{
+	border-radius: 0;
+}
+
+
+
+/**********************
 		Slider
 **********************/
 .slider-1{
