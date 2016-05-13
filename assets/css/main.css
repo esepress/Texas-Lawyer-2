@@ -292,9 +292,15 @@ section{
 .consultation-form  .bootstrap-select .btn, .consultation-form .dropdown-menu{
 	border-radius: 0;
 }
-.consultation .btn{
+.btn-cn{
 	background-color: #455579;
 	border-radius: 0;
+	color: #fff;
+}
+.btn-cn:hover{
+	border-color: #455579;
+	background-color: transparent;
+	color: #455579;
 }
 
 
