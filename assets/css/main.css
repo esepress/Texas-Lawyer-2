@@ -295,6 +295,12 @@ section{
 .consultation .btn{
 	background-color: #455579;
 	border-radius: 0;
+	color: #fff;
+}
+.consultation .btn:hover{
+	border-color: #455579;
+	background-color: transparent;
+	color: #455579;
 }
 
 
